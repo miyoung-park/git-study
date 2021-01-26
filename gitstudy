@@ -1,0 +1,21 @@
+사용자 A가 작성한 파일입니다.
+
+GIT
+: 우리가 파일을 저장하게 되면 작업하고 저장했던 그 어떤 시점이든 되돌아 갈 수 있다.
+	(백업효과도 존재하게 되는 것)
+
+1. 계정 정보 등록
+	$ git config --global user.name "miyoung-park"
+	$ git config --global user.email "qkraldud1529@gmail.com"
+
+2. git 이 관리하도록 폴더 등록
+	$ git init
+
+3. git master -> main으로 변경
+	$ git branch -m main
+
+3-2. git master -> main으로 디폴트값도 변경
+	$ git config --global init.defaultBranch main
+
+4. git 상태 확인
+	$ git status
