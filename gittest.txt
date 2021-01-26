@@ -19,3 +19,11 @@ GIT
 
 4. git 상태 확인
 	$ git status
+
+5. 파일을 생성하고 add, commit 해보기
+	$ git add : 변경이 있었던 파일을 staging area에 추가
+		(git add gittest.txt)
+	$ git commit : 변경 내용을 기록
+		(git commit -m "[A]처음으로 git commit 한 날"
+	$ git log : log 확인 
+
