@@ -39,7 +39,7 @@ GIT
 
 8. git reset
 	$ git reset --soft <commit id> : 내역을 되돌리고 commit을 취소(staging 상태)
-	$ git reset --mixed <commit id>(기본): 
+	$ git reset --mixed <commit id>(기본): mixed 뭐노
 	$ git reset --hard <commit id> : 
 				      reset을 하면 내역을 되
 	$ git reflog : 모든 내역을 
